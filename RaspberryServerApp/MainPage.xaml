@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Text="Raspberry Server App" TextWrapping="Wrap" VerticalAlignment="Top" Margin="403,52,0,0" Height="126" Width="712" FontSize="48" FontWeight="Bold"/>
+        <TextBox x:Name="DebugTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Margin="7,140,0,0" Height="848" Width="1478" FontSize="36" AcceptsReturn="True"/>
 
     </Grid>
 </Page>
